@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+input:focus {
+    border: 2px solid blue;
+    box-sizing: border-box;
+}
+form {
+    display:flex;
+    flex-direction: column;
+    border: 2px solid red;
+    background-color: rgb(231, 228, 228);
+    align-items: center;
+    max-width: 600px;
+    margin-left: 350px;
+    margin-top: 200px;
+
+}
+input{
+    height: 35px;
+    margin-top: 15px;
+}
+.forgot {
+    align-self: flex-end;
+}
+.checkboxRemember{
+    align-self: flex-start;
+    height: 35px;
+}
+.Member {
+    margin-top: 40px;
+    margin-right: 89px;
+}
+.photo{
+    background-image: url('/kisspng-india-login-computer-icons-emoticon-medicine-user-login-icon-5ab05c8c27d4c1.4591099815215074681632.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 30px;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+}
+.textend{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 280px;
+}
